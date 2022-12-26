@@ -8,7 +8,7 @@
     "module": "commonjs",
     "strict": true,
     "resolveJsonModule": true,
-    "outDir": "dist",
+    // "outDir": "dist",
     "skipLibCheck": true,
     "noImplicitAny": true
   },
