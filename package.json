@@ -9,8 +9,7 @@
     "yarn": "1.x"
   },
   "scripts": {
-    "build": "yarn tsc",
-    "start": "tsc && node dist/index.js"
+    "deploy": "ts-node --transpile-only src/index.ts"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.238.0",
@@ -19,6 +18,7 @@
   "devDependencies": {
     "@types/express": "^4.17.15",
     "@types/node": "^18.11.17",
+    "ts-node": "^10.9.1",
     "typescript": "^4.9.4"
   }
 }
