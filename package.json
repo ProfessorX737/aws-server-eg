@@ -9,7 +9,7 @@
     "yarn": "1.x"
   },
   "scripts": {
-    "deploy": "node --require ts-node/register src/index.ts"
+    "deploy": "ts-node --transpile-only src/index.ts"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.238.0",
