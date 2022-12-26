@@ -5,7 +5,7 @@
   "author": "Xavier Poon <xavierpoon737@gmail.com>",
   "license": "MIT",
   "engines": {
-    "node": "19.x",
+    "node": "16.x",
     "yarn": "1.x"
   },
   "scripts": {
