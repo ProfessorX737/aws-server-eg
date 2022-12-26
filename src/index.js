@@ -28,7 +28,7 @@ function startup() {
     return __awaiter(this, void 0, void 0, function* () {
         const app = yield initApp();
         const server = http_1.default.createServer(app);
-        server.listen("3000", () => console.log(`Server listening on port 3000`));
+        server.listen("8080", () => console.log(`Server listening on port 8080`));
     });
 }
 startup();
