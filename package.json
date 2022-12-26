@@ -4,6 +4,10 @@
   "main": "index.js",
   "author": "Xavier Poon <xavierpoon737@gmail.com>",
   "license": "MIT",
+  "engines": {
+    "node": "19.x",
+    "yarn": "1.x"
+  },
   "scripts": {
     "start": "node dist/index.js"
   },
