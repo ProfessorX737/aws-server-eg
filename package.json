@@ -10,8 +10,7 @@
   },
   "scripts": {
     "build": "yarn tsc",
-    "start": "node dist/index.js",
-    "deploy": "yarn build && yarn start"
+    "start": "tsc && node dist/index.js"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.238.0",
